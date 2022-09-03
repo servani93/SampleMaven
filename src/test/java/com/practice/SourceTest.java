@@ -10,6 +10,6 @@ class SourceTest {
     void greetings() {
         Source s = new Source();
         String greet = s.greetings();
-        assertEquals("Hello World",greet);
+        assertEquals("Good Morning",greet);
     }
 }
