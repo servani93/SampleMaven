@@ -19,4 +19,11 @@ class SourceTest {
         int result = s.addition(5, 8);
         assertEquals(13, result);
     }
+
+    @Test
+    void multiplication() {
+        Source s = new Source();
+        int result = s.multiplication(5, 8);
+        assertEquals(40, result);
+    }
 }
