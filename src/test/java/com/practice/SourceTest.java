@@ -12,4 +12,11 @@ class SourceTest {
         String greet = s.greetings();
         assertEquals("Good Morning",greet);
     }
+
+    @Test
+    void addition() {
+        Source s = new Source();
+        int result = s.addition(5, 8);
+        assertEquals(13, result);
+    }
 }
