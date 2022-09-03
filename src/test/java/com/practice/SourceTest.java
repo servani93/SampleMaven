@@ -19,4 +19,13 @@ class SourceTest {
         int result = s.addition(5, 8);
         assertEquals(13, result);
     }
+
+    @Test
+    void subtraction() {
+        Source s = new Source();
+        int result = s.subtraction(5, 8);
+        assertEquals(-3, result);
+
+
+    }
 }
